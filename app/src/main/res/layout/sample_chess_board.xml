@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.covay_project.covay.WatermelonChessBoardView
+        android:id="@+id/board_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/background">
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Restart"
+            android:layout_weight="1"
+            />
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="Regret"
+            android:layout_weight="1"
+
+            />
+</LinearLayout>
+    <!-- Additional Layout -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/mainADLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

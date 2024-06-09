@@ -1,0 +1,35 @@
+<resources>
+
+    <style name="Widget.Theme.CoVay_Project.MyView" parent="">
+        <item name="android:background">@color/gray_400</item>
+        <item name="exampleColor">@color/light_blue_400</item>
+    </style>
+    <style name="button_text">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">20</item>
+    </style>
+    <style name="text_text">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:background">#ff0000</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">1dp</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">5</item>
+    </style>
+</resources>

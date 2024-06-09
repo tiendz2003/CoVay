@@ -1,0 +1,22 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Khung viền -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#906506" /> <!-- Đặt màu khung viền là màu xanh (#00FF00) -->
+            <corners android:radius="20dp" /> <!-- Bo góc của Button -->
+        </shape>
+    </item>
+
+    <!-- Màu nền cho nút -->
+    <item android:top="6dp" android:left="6dp" android:right="6dp" android:bottom="6dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#B47F0A" /> <!-- Đặt màu nền là màu đỏ (#FF0000) -->
+            <corners android:radius="20dp" /> <!-- Bo góc của Button -->
+        </shape>
+    </item>
+</layer-list>
+
+
+
+
+

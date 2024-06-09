@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:background="@drawable/background"
+    android:orientation="horizontal"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo">
+
+    </ImageView>
+</LinearLayout>
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5">
+
+        <Button
+
+            android:id="@+id/button1"
+            android:background="@drawable/playbuttonborder"
+            android:layout_height="0dp"
+            android:text="@string/single_player_0"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            style="@style/button_text"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:background="@drawable/playbuttonborder"
+            android:layout_height="0dp"
+            android:text="@string/single_player_1"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            style="@style/button_text"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:background="@drawable/playbuttonborder"
+            android:visibility="gone"
+            android:layout_height="0dp"
+            android:text="@string/single_player_2"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            style="@style/button_text"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:background="@drawable/playbuttonborder"
+            android:layout_height="0dp"
+            android:text="@string/double_player"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            style="@style/button_text"/>
+
+        <Button
+            android:id="@+id/button5"
+            android:background="@drawable/playbuttonborder"
+            android:layout_height="0dp"
+            android:text="@string/record"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            style="@style/button_text"/>
+
+        <Button
+            android:id="@+id/button6"
+            android:background="@drawable/playbuttonborder"
+            android:layout_height="0dp"
+            android:text="@string/exit"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            style="@style/button_text"/>
+    </LinearLayout>
+</LinearLayout>

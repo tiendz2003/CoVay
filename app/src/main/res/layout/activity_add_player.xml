@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background"
+    tools:context=".covay.AddPlayer">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhập tên người chơi"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="italic|bold"
+        />
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/gold"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+
+        >
+
+        <ImageView
+            android:layout_marginStart="20dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/white"
+             />
+
+        <EditText
+            android:id="@+id/PlayerOne"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="20dp"
+            android:hint="Người chơi 1"
+            android:textStyle="italic"
+            android:textColorHint="@color/white"
+            android:background="@color/gold"
+            android:autofillHints="username"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/gold"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+
+        >
+
+        <ImageView
+            android:layout_marginStart="20dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/black"
+            />
+
+        <EditText
+            android:id="@+id/PlayerTwo"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="20dp"
+            android:hint="Người chơi 2"
+            android:textStyle="italic"
+            android:textColorHint="@color/white"
+            android:background="@color/gold"
+            android:autofillHints="username" />
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/StartGameBtn"
+        android:layout_width="372dp"
+        android:layout_height="68dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/start_button"
+        android:text="BẮT ĐẦU"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/white"
+
+        />
+
+</LinearLayout>
